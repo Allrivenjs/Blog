@@ -15,7 +15,7 @@ class PostSeeder extends Seeder
      */
     public function run()
     {
-        $posts= Post::factory(1000)->create();
+        /*$posts= Post::factory(1000)->create();
         foreach ($posts as $post){
             Image::factory(1)->create([
                 'imageable_id' => $post->id,
@@ -25,6 +25,6 @@ class PostSeeder extends Seeder
                 rand(1,4),
                 rand(5,8)
             ]);
-        }
+        }*/
     }
 }

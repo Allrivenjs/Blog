@@ -21,6 +21,6 @@ class UserSeeder extends Seeder
             'password' => Hash::make('admin')
         ])->assignRole('Admin');
 
-        User::factory(99)->create();
+        //User::factory(99)->create();
     }
 }
