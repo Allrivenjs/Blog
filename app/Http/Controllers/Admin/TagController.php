@@ -25,8 +25,6 @@ class TagController extends Controller
     'indigo' => 'Color Indigo',
     'purple' => 'Color Purple',
     'pink' => 'Color Pink'
-
-
     ];
     /**
      * Display a listing of the resource.
