@@ -51,8 +51,7 @@ class PostsController extends Controller
      */
     public function store(PostRequest $request)
     {
-
-
+        
         $post= Post::create($request->all());
         if ($request->file('PostImage')){
             $url =  Storage::put('public/posts', $request->file('PostImage') );
